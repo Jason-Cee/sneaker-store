@@ -440,10 +440,26 @@ i {
 }
 .big-modal-image {
   padding-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  max-width: 90%;
+  transition: 0.3s ease-in;
+}
+
+.big-modal-image:hover {
+  color: white;
+  background-color: slategray;
+  border-radius: 30%;
 }
 .small-modal-images {
   display: flex;
+  justify-content: space-evenly;
+  transition: 0.3s ease-in;
+}
+
+.small-modal-images:hover {
+  color: white;
+  background-color: lightcoral;
+  border-radius: 20%;
 }
 .small-modal-image {
   margin-top: 20px;
