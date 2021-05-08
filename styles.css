@@ -279,8 +279,6 @@ i {
 }
 
 /* TESTIMONIAL SLIDER */
-.owl-stage {
-}
 
 .testimonial {
   display: flex;
@@ -581,3 +579,4 @@ a.buy:hover {
   .owl-carousel {
     grid-template-rows: 10% 1fr;
   }
+}
