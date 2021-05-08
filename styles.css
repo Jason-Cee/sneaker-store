@@ -150,6 +150,12 @@ i {
   text-align: center;
 }
 
+.btn:hover {
+  background-color: red;
+  color: white;
+  border: solid 2px red;
+}
+
 /* PRODUCT PAGE */
 #productPage {
   background: url(/sneakers/banner1.jpg);
@@ -567,3 +573,11 @@ a.buy:hover {
   color: #ed2d34;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .persons {
+    grid-template-rows: 10% 1fr;
+  }
+  .owl-carousel {
+    grid-template-rows: 10% 1fr;
+  }
